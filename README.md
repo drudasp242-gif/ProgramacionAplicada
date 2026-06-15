@@ -1,1 +1,2 @@
-# c#
+# Programación Aplicada
+## Rudas Pachamango Diego Joe
