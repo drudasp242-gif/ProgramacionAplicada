@@ -41,7 +41,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.panel1.Controls.Add(this.lblCheckBox);
             this.panel1.Controls.Add(this.bt1);
             this.panel1.Controls.Add(this.checkb3);
             this.panel1.Controls.Add(this.checkb2);
@@ -101,18 +100,7 @@
             this.bt1.UseVisualStyleBackColor = true;
             this.bt1.Click += new System.EventHandler(this.bt1_Click);
             // 
-            // lblCheckBox
             // 
-            this.lblCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCheckBox.AutoSize = true;
-            this.lblCheckBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lblCheckBox.Location = new System.Drawing.Point(295, 50);
-            this.lblCheckBox.Name = "lblCheckBox";
-            this.lblCheckBox.Size = new System.Drawing.Size(177, 16);
-            this.lblCheckBox.TabIndex = 6;
-            this.lblCheckBox.Text = "Uso de control de CheckBox";
-            this.lblCheckBox.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
@@ -136,10 +124,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.CheckBox checkb1;
+        private System.Windows.Forms.TextBox txtb1;
         private System.Windows.Forms.Button bt1;
         private System.Windows.Forms.CheckBox checkb3;
         private System.Windows.Forms.CheckBox checkb2;
-        private System.Windows.Forms.Label lblCheckBox;
     }
 }
 
