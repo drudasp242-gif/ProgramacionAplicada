@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace OrdenarCadena
 {
     public partial class Form1 : Form
     {
@@ -17,26 +17,13 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void bt1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-           lblCheckBox.FontFamily = new FontFamily("Arial");
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-            {
-                txtb1.FontFamily = 
-            }
 
         }
     }

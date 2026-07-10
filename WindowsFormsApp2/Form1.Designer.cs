@@ -34,18 +34,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkFonavi = new System.Windows.Forms.CheckBox();
+            this.checkImpRenta = new System.Windows.Forms.CheckBox();
+            this.checkAFP = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtIngreso = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.txtResFonavi = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtResImp = new System.Windows.Forms.TextBox();
+            this.txtResAFP = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -101,35 +101,35 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Aportaciones";
             // 
-            // checkBox1
+            // checkFonavi
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(16, 114);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(100, 20);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Fonavi (8%)";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkFonavi.AutoSize = true;
+            this.checkFonavi.Location = new System.Drawing.Point(16, 114);
+            this.checkFonavi.Name = "checkFonavi";
+            this.checkFonavi.Size = new System.Drawing.Size(100, 20);
+            this.checkFonavi.TabIndex = 6;
+            this.checkFonavi.Text = "Fonavi (8%)";
+            this.checkFonavi.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkImpRenta
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(16, 141);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(123, 20);
-            this.checkBox2.TabIndex = 7;
-            this.checkBox2.Text = "Imp. Renta (5%)";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkImpRenta.AutoSize = true;
+            this.checkImpRenta.Location = new System.Drawing.Point(16, 141);
+            this.checkImpRenta.Name = "checkImpRenta";
+            this.checkImpRenta.Size = new System.Drawing.Size(123, 20);
+            this.checkImpRenta.TabIndex = 7;
+            this.checkImpRenta.Text = "Imp. Renta (5%)";
+            this.checkImpRenta.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkAFP
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(16, 168);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(98, 20);
-            this.checkBox3.TabIndex = 8;
-            this.checkBox3.Text = "A.F.P.(12%)";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkAFP.AutoSize = true;
+            this.checkAFP.Location = new System.Drawing.Point(16, 168);
+            this.checkAFP.Name = "checkAFP";
+            this.checkAFP.Size = new System.Drawing.Size(98, 20);
+            this.checkAFP.TabIndex = 8;
+            this.checkAFP.Text = "A.F.P.(12%)";
+            this.checkAFP.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -140,12 +140,12 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Ingreso:";
             // 
-            // textBox3
+            // txtIngreso
             // 
-            this.textBox3.Location = new System.Drawing.Point(77, 208);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 10;
+            this.txtIngreso.Location = new System.Drawing.Point(77, 208);
+            this.txtIngreso.Name = "txtIngreso";
+            this.txtIngreso.Size = new System.Drawing.Size(100, 22);
+            this.txtIngreso.TabIndex = 10;
             // 
             // label6
             // 
@@ -166,22 +166,22 @@
             this.label7.Text = "Fonavi: ";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // button1
+            // btnCalcular
             // 
-            this.button1.Location = new System.Drawing.Point(331, 206);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCalcular.Location = new System.Drawing.Point(331, 206);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.TabIndex = 13;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox4
+            // txtResFonavi
             // 
-            this.textBox4.Location = new System.Drawing.Point(99, 288);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 14;
+            this.txtResFonavi.Location = new System.Drawing.Point(99, 288);
+            this.txtResFonavi.Name = "txtResFonavi";
+            this.txtResFonavi.Size = new System.Drawing.Size(100, 22);
+            this.txtResFonavi.TabIndex = 14;
             // 
             // label8
             // 
@@ -193,19 +193,19 @@
             this.label8.Text = "Imp. Renta:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // textBox5
+            // txtResImp
             // 
-            this.textBox5.Location = new System.Drawing.Point(99, 316);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 16;
+            this.txtResImp.Location = new System.Drawing.Point(99, 316);
+            this.txtResImp.Name = "txtResImp";
+            this.txtResImp.Size = new System.Drawing.Size(100, 22);
+            this.txtResImp.TabIndex = 16;
             // 
-            // textBox6
+            // txtResAFP
             // 
-            this.textBox6.Location = new System.Drawing.Point(99, 355);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 18;
+            this.txtResAFP.Location = new System.Drawing.Point(99, 355);
+            this.txtResAFP.Name = "txtResAFP";
+            this.txtResAFP.Size = new System.Drawing.Size(100, 22);
+            this.txtResAFP.TabIndex = 18;
             // 
             // label9
             // 
@@ -239,19 +239,19 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtResAFP);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtResImp);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtResFonavi);
+            this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtIngreso);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkAFP);
+            this.Controls.Add(this.checkImpRenta);
+            this.Controls.Add(this.checkFonavi);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
@@ -273,18 +273,18 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkFonavi;
+        private System.Windows.Forms.CheckBox checkImpRenta;
+        private System.Windows.Forms.CheckBox checkAFP;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtIngreso;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.TextBox txtResFonavi;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtResImp;
+        private System.Windows.Forms.TextBox txtResAFP;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
