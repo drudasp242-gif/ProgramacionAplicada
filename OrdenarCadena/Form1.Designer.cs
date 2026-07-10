@@ -30,7 +30,7 @@
         {
             this.txtLetraFiltro = new System.Windows.Forms.TextBox();
             this.btnPasar = new System.Windows.Forms.Button();
-            this.btnListar = new System.Windows.Forms.Button();
+            this.btnListar_Click = new System.Windows.Forms.Button();
             this.lstTodosNombre = new System.Windows.Forms.ListBox();
             this.txtTotalNombres = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.txtLetraFiltro.Name = "txtLetraFiltro";
             this.txtLetraFiltro.Size = new System.Drawing.Size(89, 22);
             this.txtLetraFiltro.TabIndex = 0;
+            this.txtLetraFiltro.TextChanged += new System.EventHandler(this.txtLetraFiltro_TextChanged);
             // 
             // btnPasar
             // 
@@ -55,16 +56,17 @@
             this.btnPasar.TabIndex = 1;
             this.btnPasar.Text = "<<Pasar>>>";
             this.btnPasar.UseVisualStyleBackColor = true;
+            this.btnPasar.Click += new System.EventHandler(this.btnPasar_Click);
             // 
-            // btnListar
+            // btnListar_Click
             // 
-            this.btnListar.Location = new System.Drawing.Point(64, 126);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(75, 23);
-            this.btnListar.TabIndex = 2;
-            this.btnListar.Text = "<<Listar>>";
-            this.btnListar.UseVisualStyleBackColor = true;
-            this.btnListar.Click += new System.EventHandler(this.button2_Click);
+            this.btnListar_Click.Location = new System.Drawing.Point(50, 133);
+            this.btnListar_Click.Name = "btnListar_Click";
+            this.btnListar_Click.Size = new System.Drawing.Size(96, 23);
+            this.btnListar_Click.TabIndex = 2;
+            this.btnListar_Click.Text = "<<Listar>>";
+            this.btnListar_Click.UseVisualStyleBackColor = true;
+            this.btnListar_Click.Click += new System.EventHandler(this.button2_Click);
             // 
             // lstTodosNombre
             // 
@@ -72,7 +74,7 @@
             this.lstTodosNombre.ItemHeight = 16;
             this.lstTodosNombre.Location = new System.Drawing.Point(40, 178);
             this.lstTodosNombre.Name = "lstTodosNombre";
-            this.lstTodosNombre.Size = new System.Drawing.Size(120, 84);
+            this.lstTodosNombre.Size = new System.Drawing.Size(120, 180);
             this.lstTodosNombre.TabIndex = 3;
             // 
             // txtTotalNombres
@@ -82,6 +84,7 @@
             this.txtTotalNombres.ReadOnly = true;
             this.txtTotalNombres.Size = new System.Drawing.Size(31, 22);
             this.txtTotalNombres.TabIndex = 4;
+            this.txtTotalNombres.TextChanged += new System.EventHandler(this.txtTotalNombres_TextChanged);
             // 
             // label1
             // 
@@ -99,7 +102,7 @@
             this.lstNombresFiltrados.ItemHeight = 16;
             this.lstNombresFiltrados.Location = new System.Drawing.Point(624, 178);
             this.lstNombresFiltrados.Name = "lstNombresFiltrados";
-            this.lstNombresFiltrados.Size = new System.Drawing.Size(120, 84);
+            this.lstNombresFiltrados.Size = new System.Drawing.Size(120, 180);
             this.lstNombresFiltrados.TabIndex = 6;
             // 
             // txtTotalFiltrados
@@ -119,6 +122,7 @@
             this.txtCadenaOriginal.TabIndex = 8;
             this.txtCadenaOriginal.Text = "Liliana Angelina Leticia Amanda Patricia Roxana Luana Kiara Kimberly Synthia Cint" +
     "ia Cecilia Ana Lina Thalia Teresa Pierina";
+            this.txtCadenaOriginal.TextChanged += new System.EventHandler(this.txtCadenaOriginal_TextChanged);
             // 
             // Form1
             // 
@@ -131,7 +135,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTotalNombres);
             this.Controls.Add(this.lstTodosNombre);
-            this.Controls.Add(this.btnListar);
+            this.Controls.Add(this.btnListar_Click);
             this.Controls.Add(this.btnPasar);
             this.Controls.Add(this.txtLetraFiltro);
             this.Name = "Form1";
@@ -146,7 +150,7 @@
 
         private System.Windows.Forms.TextBox txtLetraFiltro;
         private System.Windows.Forms.Button btnPasar;
-        private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnListar_Click;
         private System.Windows.Forms.ListBox lstTodosNombre;
         private System.Windows.Forms.TextBox txtTotalNombres;
         private System.Windows.Forms.Label label1;
