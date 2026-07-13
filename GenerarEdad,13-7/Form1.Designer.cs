@@ -103,6 +103,7 @@
             this.btnCorrecto.TabIndex = 6;
             this.btnCorrecto.Text = "Correcto";
             this.btnCorrecto.UseVisualStyleBackColor = true;
+            this.btnCorrecto.Click += new System.EventHandler(this.btnCorrecto_Click);
             // 
             // btnIncorrecto
             // 
