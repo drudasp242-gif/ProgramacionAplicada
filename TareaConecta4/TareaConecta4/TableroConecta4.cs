@@ -192,4 +192,6 @@ namespace TareaConecta4
             return gano;
         }
     }
+
+    //Terminado//
 }
